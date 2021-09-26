@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity8">
+
+    <TextView
+        android:id="@+id/textView32"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Go to the beach"
+        android:textSize="30sp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="25dp"/>
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="-180dp"
+        android:background="@drawable/sayulita"
+        />
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="100dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="70dp"
+        android:layout_marginLeft="10dp"
+        android:background="@drawable/guaya"
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="58dp"
+        android:layout_height="200dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="70dp"
+        android:background="@drawable/riviera" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="50dp"
+        android:layout_height="19dp"
+        android:layout_marginTop="275dp"
+        android:layout_marginLeft="-255dp"
+        android:text="Sayulita"
+
+        />
+
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="99dp"
+        android:layout_height="60dp"
+        android:layout_marginLeft="36.5dp"
+        android:layout_marginTop="260dp"
+        android:background="@drawable/ejercicio8_1"
+        android:gravity="center"
+        android:text="Guayabitos" />
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="30dp"
+        android:layout_height="19dp"
+        android:layout_marginLeft="25dp"
+        android:layout_marginTop="275dp"
+        android:text="Rivie" />
+    <TextView
+        android:id="@+id/textView7"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-265dp"
+        android:text="$460"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/textView8"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="-265dp"
+        android:text="$460"
+        android:textSize="20sp"
+        />
+    <TextView
+        android:id="@+id/textView9"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="350dp"
+        android:text="3d 20h"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/textView10"
+        android:layout_width="50dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="350dp"
+        android:layout_marginLeft="5dp"
+        android:text="35 min"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/textView11"
+        android:layout_width="300dp"
+        android:layout_height="23dp"
+        android:layout_marginTop="390dp"
+        android:layout_marginLeft="-290dp"
+        android:text="Rincón de Guayabitos, San Blas, La Tobara, Isla SAMAO"
+        android:textSize="10sp"
+        />
+    <TextView
+        android:id="@+id/textView38"
+        android:layout_width="300dp"
+        android:layout_height="40dp"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="450dp"
+        android:layout_marginLeft="-300dp"
+
+        android:background="@drawable/ejercicio7_3"
+        android:gravity="center"
+        android:textSize="30sp" />
+
+    <ImageView
+        android:id="@+id/imageView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="-260dp"
+        app:srcCompat="@drawable/monte" />
+    <ImageView
+        android:id="@+id/imageView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/autobus" />
+    <ImageView
+        android:id="@+id/imageView20"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="460dp"
+        android:layout_marginLeft="80dp"
+        app:srcCompat="@drawable/pensando" />
+</LinearLayout>

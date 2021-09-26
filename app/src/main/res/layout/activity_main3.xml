@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/sad"
+    tools:context=".MainActivity3">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="40dp"
+        android:layout_gravity="left"
+        android:layout_marginLeft="3dp"
+        app:srcCompat="@drawable/atras" />
+
+    <ImageButton
+        android:id="@+id/imageButton"
+        android:layout_width="81dp"
+        android:layout_height="77dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="460dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/refresh"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton1"
+        android:layout_width="80dp"
+        android:layout_height="75dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="440dp"
+        android:background="#00FAF9F9"
+        app:srcCompat="@drawable/pause"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <ImageButton
+        android:id="@+id/imageButton2"
+        android:layout_width="76dp"
+        android:layout_height="78dp"
+        android:layout_marginLeft="40dp"
+        android:layout_marginTop="460dp"
+        android:background="#00FFFFFF"
+        app:srcCompat="@drawable/siguiente"
+        tools:ignore="SpeakableTextPresentCheck" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="wrap_content"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-380dp"
+        android:layout_marginTop="180dp"
+        android:background="#AD0E0E0E" />
+
+    <View
+        android:id="@+id/view3"
+        android:layout_width="50dp"
+        android:layout_height="80dp"
+        android:layout_marginLeft="-436dp"
+        android:layout_marginTop="180dp"
+        android:background="#2532C8A5" />
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="185dp"
+        android:text="00:08/03:34"
+        android:textColor="@color/white"
+        android:layout_marginLeft="40dp"
+        android:textSize="50sp" />
+    <TextView
+        android:id="@+id/textVie2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Re-record"
+        android:textColor="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="-280dp"
+        android:textSize="10sp" />
+    <TextView
+        android:id="@+id/textVie3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Next Step"
+        android:textColor="@color/white"
+        android:layout_marginTop="500dp"
+        android:layout_marginLeft="199dp"
+        android:textSize="10sp" />
+</LinearLayout>
